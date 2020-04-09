@@ -1,0 +1,79 @@
+.navbar-custom {
+    background-color: rgb(90, 0, 99);
+}
+
+.Home-Text {
+    text-align: center; 
+}
+
+.banner {
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+    background: url(../img/home_background_title.jpg);
+	background-size: cover;
+	margin-bottom: 0;
+}
+
+.contentBox h1 {
+	font-weight: 650;
+	color: #fff;
+	text-transform: uppercase;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 100px;
+}
+.footer-custom {
+    background-color: rgb(90, 0, 99);
+}
+.footer-text {
+    color: white;
+}
+.deco-img {
+    align-content: center; 
+}
+
+form {
+    width: 80%;
+    margin-left: 10%;
+}
+
+a {
+    font-size: 1rem;
+    line-height: 1.55;
+    color: lightgray !important;
+    font-weight: 500;
+    text-decoration-line: none !important;
+}
+a.text-dark:hover, a.text-dark:focus {
+    color: #03a9f4 !important;
+}
+
+.text-dark {
+    color: #7d8c99 !important;
+}
+
+p {
+    font-size: 1.28rem;
+    line-height: 1.55;
+    color: #7d8c99;
+ }
+
+ .btn {
+    font-size: 1rem;
+    font-weight: 500;
+
+ }
+ .my-d h3 {
+    font-size: 1.75rem;
+    color: darkblue;
+}
+
+.bg-color{
+    background-color: rgb(90, 0, 99);
+    color: rgb(90, 0, 99);
+}
+
+
+
