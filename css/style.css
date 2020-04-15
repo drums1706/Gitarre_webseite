@@ -1,5 +1,5 @@
 .navbar-custom {
-    background-color: rgb(90, 0, 99);
+    background-color: rgb(0, 0, 0);
 }
 
 .Home-Text {
@@ -25,7 +25,7 @@
     margin-top: 100px;
 }
 .footer-custom {
-    background-color: rgb(90, 0, 99);
+    background-color: rgb(0, 0, 0);
 }
 .footer-text {
     color: white;
@@ -71,9 +71,13 @@ p {
 }
 
 .bg-color{
-    background-color: rgb(90, 0, 99);
-    color: rgb(90, 0, 99);
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
+.color_background{
+   background-color: rgba(0, 0, 0, 0.7);
+}
+
 
 
 
