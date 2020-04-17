@@ -58,7 +58,7 @@ a.text-dark:hover, a.text-dark:focus {
 p {
     font-size: 1.28rem;
     line-height: 1.55;
-    color: #7d8c99;
+    color: #ffffff;
  }
 
  .btn {
@@ -68,7 +68,7 @@ p {
  }
  .my-d h3 {
     font-size: 1.75rem;
-    color: darkblue;
+    color: rgb(2, 2, 2);
 }
 
 .bg-color{
@@ -79,6 +79,9 @@ p {
    background-color: rgba(61, 61, 61, 0.7);
 }
 
-
+body {
+    background: #fa00d0;
+    background: linear-gradient(to left, rgb(153, 0, 255), rgb(25, 0, 255));
+  }
 
 
