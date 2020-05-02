@@ -67,8 +67,9 @@ p {
 }
 
 body {
-    background: #fa0000;
-    background: linear-gradient(to top, rgb(180, 0, 0), rgba(145, 0, 120), rgb(104, 0, 165), rgb(12, 0, 179));
+    background: #002efa;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(44, 19, 136), rgb(117, 32, 173), rgb(175, 35, 168), rgb(182, 41, 76), rgb(0, 0, 0));
+    background-attachment: fixed;
 }
 
 .button-text {
