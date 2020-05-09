@@ -6,7 +6,7 @@
         Shop - Kontaktformular
     </title>
 </head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width">
 <meta name="keywords" content="CZB, CZB shop, Christliches Zentrum Buchegg, ">
 <meta name="author" content="Issaya Tubniyom">
 <meta name="description" content="CZB Shop">
@@ -35,130 +35,132 @@
 <link rel="stylesheet" href="../PHP/script.php">
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">
-                <img src="" width="30" height="30" alt="Image_icon">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="home-background-color">
+        <header>
+            <!--Navigationsbar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="../index.html"><img src="../img/Webseite_background/logo.jpg" alt="Bild-Icon" height="50" width="50"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-lg-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Bücher
                   </a>
-                        <div class="dropdown-menu bg-nav" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item color-text" href="../html/buecher_andachten_und_bibel.html">Bücher - Andachten und Bibeln</a>
-                            <a class="dropdown-item color-text" href="../html/buecher_glauben.html">Bücher - Glauben</a>
-                            <a class="dropdown-item color-text" href="../html/buecher_kinder_und_jugend.html">Bücher - Kinder und Jugend</a>
-                            <a class="dropdown-item color-text" href="../html/buecher_ratgeber.html">Bücher - Ratgeber</a>
-                            <a class="dropdown-item color-text" href="../html/buecher_romane.html">Bücher - Romane</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="dropdown-menu bg-darkblue" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="../html/buecher_andachten_und_bibel.html">Bücher - Andachten und Bibel</a>
+                                    <a class="dropdown-item" href="../html/buecher_glauben.html">Bücher - Glauben</a>
+                                    <a class="dropdown-item" href="../html/buecher_kinder_und_jugend.html">Bücher - Kinder und Jugend</a>
+                                    <a class="dropdown-item" href="../html/buecher_ratgeber.html">Bücher - Ratgeber</a>
+                                    <a class="dropdown-item" href="../html/buecher_romane.html">Bücher - Romane</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Filme
                   </a>
-                        <div class="dropdown-menu bg-nav" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item color-text" href="../html/filme_dokumentationen.html">Filme - Dokumentationen</a>
-                            <a class="dropdown-item color-text" href="../html/filme_kinder.html">Filme - Kinder</a>
-                            <a class="dropdown-item color-text" href="../html/filme_spielfilm.html">Filme - Spielfilme</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../html/geschenkartikel.html">Geschenkartikel</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-item active" href="../html/kontaktformular.html">Kontaktformular</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-danger my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>
-    </header>
+                                <div class="dropdown-menu bg-darkblue" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="../html/filme_dokumentationen.html">Filme - Dokumentationen</a>
+                                    <a class="dropdown-item" href="../html/filme_kinder.html">Filme - Kinder</a>
+                                    <a class="dropdown-item" href="../html/filme_spielfilm.html">Filme - Spielfilme</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../html/geschenkartikel.html">Geschenkartikel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../html/kontaktformular.html">Kontaktformular</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--End Section-->
 
-    <!--form-->
-    <form>
-        <div class="form-row">
-            <div class="col-md-4 mb-3">
-                <label for="validationServer01">First name</label>
-                <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Mark" required>
-                <div class="valid-feedback">
-                    Looks good!
-                </div>
-            </div>
-            <div class="col-md-4 mb-3">
-                <label for="validationServer02">Last name</label>
-                <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Otto" required>
-                <div class="valid-feedback">
-                    Looks good!
-                </div>
-            </div>
-            <div class="col-md-4 mb-3">
-                <label for="validationServerUsername">Username</label>
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroupPrepend3">@</span>
+        <!--Section form-->
+        <div class="container">
+            <form>
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="validationServer01">First name</label>
+                        <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Mark" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
                     </div>
-                    <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
-                    <div class="invalid-feedback">
-                        Please choose a username.
+                    <div class="col-md-4 mb-3">
+                        <label for="validationServer02">Last name</label>
+                        <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Otto" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationServerUsername">Username</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                            </div>
+                            <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
+                            <div class="invalid-feedback">
+                                Please choose a username.
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="form-row">
-            <div class="col-md-6 mb-3">
-                <label for="validationServer03">City</label>
-                <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
-                <div class="invalid-feedback">
-                    Please provide a valid city.
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationServer03">City</label>
+                        <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationServer04">State</label>
+                        <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationServer05">Zip</label>
+                        <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid zip.
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-3 mb-3">
-                <label for="validationServer04">State</label>
-                <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
-                <div class="invalid-feedback">
-                    Please provide a valid state.
-                </div>
-            </div>
-            <div class="col-md-3 mb-3">
-                <label for="validationServer05">Zip</label>
-                <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
-                <div class="invalid-feedback">
-                    Please provide a valid zip.
-                </div>
-            </div>
-        </div>
-        <div class="form-group">
-            <div class="form-check">
-                <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
-                <label class="form-check-label" for="invalidCheck3">
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                        <label class="form-check-label" for="invalidCheck3">
               Agree to terms and conditions
             </label>
-                <div class="invalid-feedback">
-                    You must agree before submitting.
+                        <div class="invalid-feedback">
+                            You must agree before submitting.
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </form>
         </div>
-        <button class="btn btn-primary" type="submit">Submit form</button>
-    </form>
+    </div>
     <!--End form-->
 
     <!--Footer-->
-    <footer class="page-footer font-small footer-custom ">
-        <div class="footer-copyright text-center py-3 footer-text "> 2020 Erstellt von: <br> Issaya T.
+    <footer class="page-footer font-small footer-custom bg-light">
+        <div class=" footer-copyright text-center py-3 footer-text "> 2020 Erstellt von: <br> Issaya T.
         </div>
     </footer>
+    <!--End Section-->
 
     <!--cdn's für scripts-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>

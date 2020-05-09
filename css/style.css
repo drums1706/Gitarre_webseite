@@ -20,12 +20,8 @@
     font-size: 4rem;
 }
 
-.footer-custom {
-    background-color: rgb(61, 61, 61);
-}
-
 .footer-text {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .deco-img {
@@ -34,17 +30,17 @@
 
 a.text-dark:hover,
 a.text-dark:focus {
-    color: #03a9f4 !important;
+    color: #000000 !important;
 }
 
 .text-dark {
-    color: #7d8c99 !important;
+    color: #000000 !important;
 }
 
 p {
     font-size: 1.28rem;
     line-height: 1.55;
-    color: #ffffff;
+    color: #000000;
 }
 
 .btn {
@@ -54,23 +50,10 @@ p {
 
 .my-d h3 {
     font-size: 1.75rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
-.bg-color {
-    background-color: rgb(61, 61, 61);
-    color: rgb(61, 61, 61);
-}
-
-.color_background {
-    background-color: rgba(61, 61, 61, 0.7);
-}
-
-body {
-    background: #002efa;
-    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(44, 19, 136), rgb(117, 32, 173), rgb(175, 35, 168), rgb(182, 41, 76), rgb(0, 0, 0));
-    background-attachment: fixed;
-}
+.bg-color {}
 
 .button-text {
     font-size: 1rem;
@@ -80,15 +63,32 @@ body {
     text-decoration-line: none !important;
 }
 
-.bg-nav {
-    background-color: rgb(61, 61, 61);
-    color: rgb(61, 61, 61);
-}
+.bg-nav {}
 
 .color-text {
     font-size: 1rem;
     line-height: 1.55;
-    color: lightgray !important;
+    color: rgb(0, 0, 0) !important;
     font-weight: 500;
     text-decoration-line: none !important;
+}
+
+.home-background-color {
+    background-color: rgb(230, 230, 230);
+}
+
+.jumbotron-color {
+    background-color: white;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+.container-card {
+    max-width: 75%;
+}
+
+html {
+    scroll-behavior: smooth;
 }
