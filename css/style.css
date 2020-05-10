@@ -93,3 +93,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.books-background-color {
+    background-color: white;
+}
