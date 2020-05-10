@@ -112,10 +112,6 @@ section {
     display: table;
 }
 
-section.ok {
-    background-color: #555;
-}
-
 .scroll-down {
     opacity: 1;
     -webkit-transition: all .5s ease-in 3s;
