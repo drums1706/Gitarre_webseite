@@ -12,6 +12,7 @@
     background-size: cover;
     margin-bottom: 0;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .contentBox h1 {
