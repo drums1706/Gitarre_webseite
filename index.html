@@ -22,6 +22,7 @@
 <link rel="stylesheet" href="./css/bootstrap.css.map">
 <link rel="stylesheet" href="./css/bootstrap.min.css">
 <link rel="stylesheet" href="./css/bootstrap.min.css.map">
+<link rel="stylesheet" href="./css/home.css">
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" href="./js/bootstrap.bundle.js">
 <link rel="stylesheet" href="./js/bootstrap.bundle.js.map">
@@ -35,61 +36,140 @@
 
 <body>
     <div class="home-background-color">
-        <header>
-            <!--Navigationsbar -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container">
-                    <a class="navbar-brand" href="index.html"><img src="./img/Webseite_background/logo.jpg" alt="Bild-Icon" height="50" width="50"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="masthead mb-auto">
+                <!--Navigationsbar -->
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container inner">
+                        <a class="navbar-brand" href="index.html"><img src="./img/Webseite_background/logo.jpg" alt="Bild-Icon" height="50" width="50"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-lg-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-lg-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Bücher
                   </a>
-                                <div class="dropdown-menu bg-darkblue" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="./html/buecher_andachten_und_bibel.html">Bücher - Andachten und Bibel</a>
-                                    <a class="dropdown-item" href="./html/buecher_glauben.html">Bücher - Glauben</a>
-                                    <a class="dropdown-item" href="./html/buecher_kinder_und_jugend.html">Bücher - Kinder und Jugend</a>
-                                    <a class="dropdown-item" href="./html/buecher_ratgeber.html">Bücher - Ratgeber</a>
-                                    <a class="dropdown-item" href="./html/buecher_romane.html">Bücher - Romane</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <div class="dropdown-menu bg-darkblue" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="./html/buecher_andachten_und_bibel.html">Bücher - Andachten und Bibel</a>
+                                        <a class="dropdown-item" href="./html/buecher_glauben.html">Bücher - Glauben</a>
+                                        <a class="dropdown-item" href="./html/buecher_kinder_und_jugend.html">Bücher - Kinder und Jugend</a>
+                                        <a class="dropdown-item" href="./html/buecher_ratgeber.html">Bücher - Ratgeber</a>
+                                        <a class="dropdown-item" href="./html/buecher_romane.html">Bücher - Romane</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Filme
                   </a>
-                                <div class="dropdown-menu bg-darkblue" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="./html/filme_dokumentationen.html">Filme - Dokumentationen</a>
-                                    <a class="dropdown-item" href="./html/filme_kinder.html">Filme - Kinder</a>
-                                    <a class="dropdown-item" href="./html/filme_spielfilm.html">Filme - Spielfilme</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./html/geschenkartikel.html">Geschenkartikel</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./html/kontaktformular.html">Kontaktformular</a>
-                            </li>
-                        </ul>
+                                    <div class="dropdown-menu bg-darkblue" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="./html/filme_dokumentationen.html">Filme - Dokumentationen</a>
+                                        <a class="dropdown-item" href="./html/filme_kinder.html">Filme - Kinder</a>
+                                        <a class="dropdown-item" href="./html/filme_spielfilm.html">Filme - Spielfilme</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./html/geschenkartikel.html">Geschenkartikel</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./html/kontaktformular.html">Kontaktformular</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <!--End Section-->
+
+            <!--Section Title-->
+            <div class="jumbotron jumbotron-fluid height100p banner">
+                <div class="container h100">
+                    <div class="contentBox h100">
+                        <div class="Home-Text">
+                            <h1 class="display-4 font-italic rounded title-background-color p-4 px-0">Herzlich Willkommen</h1>
+                            <a href="#card" class="scroll-down title-background-color" address="true"></a>
+                        </div>
                     </div>
                 </div>
-            </nav>
-        </header>
-        <!--End Section-->
+            </div>
+            <!--End Section-->
+            <br>
+            <br>
 
-        <!--Section Title-->
-        <div class="jumbotron jumbotron-fluid height100p banner">
-            <div class="container h100">
-                <div class="contentBox h100">
-                    <div class="Home-Text">
-                        <h1>Willkommen zum CZB Shop</h1>
-                        <a href="#card" class="scroll-down" address="true"></a>
+            <!--Section second Card-->
+            <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark container container-card">
+                <div class="col-md-6 px-0">
+                    <p class="lead my-3 text-white">Dieses ist die interne Webseite von dem CZB Shop</p>
+                </div>
+            </div>
+            <!--End Section-->
+
+            <!--Section grid-->
+            <div class="container container-card card-background-color">
+                <div class="row ">
+                    <div class="col-sm-6 ">
+                        <div class="card ">
+                            <div class="card-body card-color">
+                                <h5 class="card-title ">Unsere Kirche ist das Christliches Zentrum Buchegg</h5>
+                                <p class="card-text ">Falls Sie mehr, mehr erfahren möchten, können Sie unten auf den Link klicken.</p>
+                                <a href="https://www.buchegg.church/" class=" btn btn-secondary " target="blank">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 ">
+                        <div class="card ">
+                            <div class="card-body card-color">
+                                <h5 class="card-title ">Alle Bücher, welche wir anbieten sind von dem Fontis Shop.</h5>
+                                <p class="card-text ">Falls Sie mehr erfahren möchten, können Sie auf den Folgenden link klicken.</p>
+                                <a href="https://www.fontis-shop.ch/ " class="btn btn-secondary " target="blank">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Section End-->
+
+            <br>
+
+            <!--Section Book Title-->
+            <h1 class="container container-card ">Unsere neusten Ausgaben</h1>
+            <hr class="container container-card ">
+            <!--Section End-->
+
+            <!--Section Books-->
+            <div class="container container-card ">
+                <div class="row mb-2 ">
+                    <div class="col-md-6 ">
+                        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative books-background-color ">
+                            <div class="col p-4 d-flex flex-column position-static ">
+                                <strong class="d-inline-block mb-2 text-primary ">Neu!</strong>
+                                <h3 class="mb-0 ">Choose</h3>
+                                <div class="mb-1 text-muted ">Nov 12.19</div>
+                                <p class="card-text mb-auto ">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                <a href="./html/buecher_ratgeber.html#choose " class="stretched-link ">Continue reading</a>
+                            </div>
+                            <div class="col-auto d-none d-lg-block ">
+                                <img src="./img/buecher_ratgeber/choose.jpeg " alt="img_choose " class="bd-placeholder-img " width="200 " height="250 ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-md-6 ">
+                        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative books-background-color ">
+                            <div class="col p-4 d-flex flex-column position-static ">
+                                <strong class="d-inline-block mb-2 text-primary ">Neu!</strong>
+                                <h3 class="mb-0 ">Zuerst geliebt</h3>
+                                <div class="mb-1 text-muted ">Nov 11</div>
+                                <p class="mb-auto ">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                <a href="./html/buecher_ratgeber.html#zuerst " class="stretched-link ">Continue reading</a>
+                            </div>
+                            <div class="col-auto d-none d-lg-block ">
+                                <img src="./img/buecher_ratgeber/zuerst_geliebt.jpg " alt="img_choose " class="bd-placeholder-img " width="200 " height="250 ">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -97,141 +177,60 @@
         <!--End Section-->
 
         <br>
-        <br>
 
-        <!--Section second Card-->
-        <div class="container container-card" id="card">
-            <div class="jumbotron jumbotron-color ">
-                <h1 class="display-4 ">Herzlich Willkommen</h1>
-                <p class="lead ">Diese Webseite ist die Internewebseite für den CZB Shop.</p>
-                <hr class="my-4 ">
-                <p>Alle Bücher, welche Sie auf diese Webseite finden, verkaufen wir auch im CZB Shop</p>
-            </div>
-        </div>
-        <!--End Section-->
-
-        <!--Section grid-->
-        <div class="container container-card ">
+        <!--Footer-->
+        <footer class=" container py-5 ">
             <div class="row ">
-                <div class="col-sm-6 ">
-                    <div class="card ">
-                        <div class="card-body ">
-                            <h5 class="card-title ">Unsere Kirche ist das Christliches Zentrum Buchegg</h5>
-                            <p class="card-text ">Falls Sie mehr, mehr erfahren möchten, können Sie unten auf den Link klicken.</p>
-                            <a href="https://www.buchegg.church/ " class="btn btn-secondary ">Learn more</a>
-                        </div>
-                    </div>
+                <div class="col-12 col-md ">
+                    <img src="./img/Webseite_background/logo.jpg " alt=" " height="100 " width="100 ">
+                    <small class=" d-block mb-3 text-muted "></small>
                 </div>
-                <div class="col-sm-6 ">
-                    <div class="card ">
-                        <div class="card-body ">
-                            <h5 class="card-title ">Alle Bücher, welche wir anbieten sind von dem Fontis Shop.</h5>
-                            <p class="card-text ">Falls Sie mehr erfahren möchten, können Sie auf den Folgenden link klicken.</p>
-                            <a href="https://www.fontis-shop.ch/" class="btn btn-secondary ">Learn more</a>
-                        </div>
-                    </div>
+                <div class="col-6 col-md ">
+                    <h5>Infos</h5>
+                    <ul class="list-unstyled text-small ">
+                        <li>
+                            <a class="text-muted " href="https://www.buchegg.church/ " target="blank ">Christliches Zentrum Buchegg</a>
+                        </li>
+                        <li>
+                            <a class="text-muted " href="https://www.google.com/maps/place/Christliches+Zentrum+Buchegg/@47.3997928,8.5307637,17z/data=!3m1!4b1!4m5!3m4!1s0x47900a643a09b58b:0xfb351834de40c993!8m2!3d47.3997928!4d8.5329524 " target="blank ">Hofwiesenstrasse 143, 8057 Zürich</a>
+                        </li>
+                        <li>
+                            <a class="text-muted disabled " href="# ">Tel. 044 366 65 65</a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-        </div>
-        <!--Section End-->
-
-        <br>
-
-        <!--Section Book Title-->
-        <h1 class="container container-card">Unsere neusten Ausgaben</h1>
-        <hr class="container container-card">
-        <!--Section End-->
-
-        <!--Section Books-->
-        <div class="container container-card">
-            <div class="row mb-2">
-                <div class="col-md-6">
-                    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative books-background-color">
-                        <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-primary">Neu!</strong>
-                            <h3 class="mb-0">Choose</h3>
-                            <div class="mb-1 text-muted">Nov 12.19</div>
-                            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                            <a href="./html/buecher_ratgeber.html#choose" class="stretched-link">Continue reading</a>
-                        </div>
-                        <div class="col-auto d-none d-lg-block">
-                            <img src="./img/buecher_ratgeber/choose.jpeg" alt="img_choose" class="bd-placeholder-img" width="200" height="250">
-                        </div>
-                    </div>
-                </div>
-                <div class=" col-md-6 ">
-                    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative books-background-color ">
-                        <div class="col p-4 d-flex flex-column position-static ">
-                            <strong class="d-inline-block mb-2 text-primary ">Neu!</strong>
-                            <h3 class="mb-0 ">Zuerst geliebt</h3>
-                            <div class="mb-1 text-muted ">Nov 11</div>
-                            <p class="mb-auto ">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                            <a href="./html/buecher_ratgeber.html#zuerst" class="stretched-link ">Continue reading</a>
-                        </div>
-                        <div class="col-auto d-none d-lg-block ">
-                            <img src="./img/buecher_ratgeber/zuerst_geliebt.jpg" alt="img_choose" class="bd-placeholder-img" width="200" height="250">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--End Section-->
-
-    <br>
-
-    <!--Footer-->
-    <footer class=" container py-5 ">
-        <div class="row ">
-            <div class="col-12 col-md ">
-                <img src="./img/Webseite_background/logo.jpg " alt=" " height="100 " width="100 ">
-                <small class=" d-block mb-3 text-muted "></small>
-            </div>
-            <div class="col-6 col-md ">
-                <h5>Infos</h5>
-                <ul class="list-unstyled text-small ">
-                    <li>
-                        <a class="text-muted " href="https://www.buchegg.church/ " target="blank ">Christliches Zentrum Buchegg</a>
-                    </li>
-                    <li>
-                        <a class="text-muted " href="https://www.google.com/maps/place/Christliches+Zentrum+Buchegg/@47.3997928,8.5307637,17z/data=!3m1!4b1!4m5!3m4!1s0x47900a643a09b58b:0xfb351834de40c993!8m2!3d47.3997928!4d8.5329524 " target="blank ">Hofwiesenstrasse 143, 8057 Zürich</a>
-                    </li>
-                    <li>
-                        <a class="text-muted disabled " href="# ">Tel. 044 366 65 65</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-6 col-md ">
-                <h5>Resources</h5>
-                <ul class="list-unstyled text-small ">
-                    <li>
-                        <a class=" text-muted " href="https://www.fontis-shop.ch/ ">Fontis Shop</a>
-                    </li>
-                    <li>
-                        <a class="text-muted " href="https://www.google.com/maps/place/Fontis-Buchhandlung+(ehemals+Brunnen+Bibelpanorama)/@47.51722,8.5391902,17z/data=!3m1!4b1!4m5!3m4!1s0x479075d3b52fd699:0xa3025b23f429a9d8!8m2!3d47.51722!4d8.5413789
+                <div class="col-6 col-md ">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small ">
+                        <li>
+                            <a class=" text-muted " href="https://www.fontis-shop.ch/ ">Fontis Shop</a>
+                        </li>
+                        <li>
+                            <a class="text-muted " href="https://www.google.com/maps/place/Fontis-Buchhandlung+(ehemals+Brunnen+Bibelpanorama)/@47.51722,8.5391902,17z/data=!3m1!4b1!4m5!3m4!1s0x479075d3b52fd699:0xa3025b23f429a9d8!8m2!3d47.51722!4d8.5413789
                                 " target="blank ">Marktgasse 31, 8180 Bülach</a>
-                    </li>
-                    <li>
-                        <a class="text-muted disabled " href="# ">Tel. 044 860 06 81</a>
-                    </li>
-                </ul>
+                        </li>
+                        <li>
+                            <a class="text-muted disabled " href="# ">Tel. 044 860 06 81</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md ">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small ">
+                        <li><a class="text-muted " href="./html/team.html ">Team</a></li>
+                        <li><a class="text-muted " href="# ">Terms</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-6 col-md ">
-                <h5>About</h5>
-                <ul class="list-unstyled text-small ">
-                    <li><a class="text-muted " href="./html/team.html ">Team</a></li>
-                    <li><a class="text-muted " href="# ">Terms</a></li>
-                </ul>
+            <div class="footer-copyright text-center py-3 footer-text"> 2020 Erstellt von: <br>Issaya T.
             </div>
-        </div>
-    </footer>
-    <!--End Section-->
-    </div>
+        </footer>
+        <!--End Section-->
 
-    <!--cdn's für scripts-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js " integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js " integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k " crossorigin="anonymous "></script>
+        <!--cdn's für scripts-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js " integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut " crossorigin="anonymous "></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js " integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k " crossorigin="anonymous "></script>
 
 </body>
 

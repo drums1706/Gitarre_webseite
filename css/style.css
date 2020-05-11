@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+.title-background-color {
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
 .banner {
     position: relative;
     top: 0;
@@ -74,7 +78,7 @@ p {
 }
 
 .jumbotron-color {
-    background-color: white;
+    background-color: rgb(0, 0, 0, 0.7);
 }
 
 @-ms-viewport {
