@@ -2,32 +2,32 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=460, initial-scale=1, user-scalable=no">
     <meta name="keywords" content="CZB, CZB shop, Christliches Zentrum Buchegg, ">
     <meta name="author" content="Issaya Tubniyom">
     <meta name="description" content="CZB Shop">
-    <link rel="stylesheet" href="./css/bootstrap-grid.css">
-    <link rel="stylesheet" href="./css/bootstrap-grid.css.map">
-    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="./css/bootstrap-grid.min.css.map">
-    <link rel="stylesheet" href="/css/bootstrap-reboot.css">
-    <link rel="stylesheet" href="./css/bootstrap-reboot.css.map">
-    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css.map">
     <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="./css/bootstrap.css.map">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="./css/mdb.css">
+    <link rel="stylesheet" href="./css/mdb.lite.css">
+    <link rel="stylesheet" href="./css/mdb.lite.min.css">
+    <link rel="stylesheet" href="./css/mdb.lite.min.css.map">
+    <link rel="stylesheet" href="./css/mdb.min.css">
+    <link rel="stylesheet" href="./css/mdb.min.css.map">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./js/bootstrap.bundle.js">
-    <link rel="stylesheet" href="./js/bootstrap.bundle.js.map">
-    <link rel="stylesheet" href="./js/bootstrap.bundle.min.js">
-    <link rel="stylesheet" href="./js/bootstrap.bundle.min.js.map">
     <link rel="stylesheet" href="./js/bootstrap.js">
-    <link rel="stylesheet" href="./js/bootstrap.js.map">
     <link rel="stylesheet" href="./js/bootstrap.min.js">
-    <link rel="stylesheet" href="./js/bootstrap.min.js.map">
+    <link rel="stylesheet" href="./js/jquery.js">
+    <link rel="stylesheet" href="./js/jquery.min.js">
+    <link rel="stylesheet" href="./js/mdb.js">
+    <link rel="stylesheet" href="./js/mdb.lite.min.js.map">
+    <link rel="stylesheet" href="./js/mdb.min.js">
+    <link rel="stylesheet" href="./js/mdb.min.js.map">
+    <link rel="stylesheet" href="./js/popper.js">
+    <link rel="stylesheet" href="./js/popper.min.js">
     <link rel="stylesheet" href="./js/script.js">
+
     <title>
         Shop - Home
     </title>
@@ -35,124 +35,60 @@
 
 
 <body>
-    <div class="home-background-color">
-        <header>
-            <!--Navigationsbar -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                <div class="container">
-                    <a class="navbar-brand" href="index.html"><img src="./img/Webseite_background/logo.jpg" alt="Bild-Icon" height="50" width="50"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#"><strong>MDB</strong></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-lg-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    B&uumlcher
-                  </a>
-                                <div class="dropdown-menu bg-darkblue" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="./html/buecher_andachten_und_bibel.html">B&uumlcher - Andachten und Bibel</a>
-                                    <a class="dropdown-item" href="./html/buecher_glauben.html">B&uumlcher - Glauben</a>
-                                    <a class="dropdown-item" href="./html/buecher_kinder_und_jugend.html">B&uumlcher - Kinder und Jugend</a>
-                                    <a class="dropdown-item" href="./html/buecher_ratgeber.html">B&uumlcher - Ratgeber</a>
-                                    <a class="dropdown-item" href="./html/buecher_romane.html">B&uumlcher - Romane</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Filme
-                  </a>
-                                <div class="dropdown-menu bg-darkblue" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="./html/filme_dokumentationen.html">Filme - Dokumentationen</a>
-                                    <a class="dropdown-item" href="./html/filme_kinder.html">Filme - Kinder</a>
-                                    <a class="dropdown-item" href="./html/filme_spielfilm.html">Filme - Spielfilme</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./html/geschenkartikel.html">Geschenkartikel</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href=".//PHP/input.php">Kontaktformular</a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Profile</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </header>
-        <!--End Section-->
-
-        <!--Section Title-->
-        <div class="jumbotron jumbotron-fluid height100p banner">
-            <div class="container h100">
-                <div class="contentBox h100">
-                    <div class="Home-Text">
-                        <h1>Willkommen zum CZB Shop</h1>
-                    </div>
-                </div>
-                <section>
-                    <a href="#card" class="scroll-down" address="true"></a>
-                </section>
             </div>
+        </nav>
+        <!-- Navbar -->
+        <!-- Full Page Intro -->
+        <div class="view background-image">
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-black-light align-items-center">
+                <!-- Content -->
+                <div class="container">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-md-12 mb-4 white-text text-center contentbox">
+                            <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Minimalist intro</strong></h1>
+                            <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+                            <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Photography & design</strong></h5>
+                            <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">portfolio</a>
+                            <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">About me</a>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </div>
+                <!-- Content -->
+            </div>
+            <!-- Mask & flexbox options-->
+            <section>
+                <a href="#card" class="scroll-down" address="true"></a>
+            </section>
         </div>
-        <!--End Section-->
-
-        <!--Section Carousel-->
-
-        <!--End Section-->
-
-
-
-        <!--Footer-->
-        <footer class="container py-5">
-            <div class=" row ">
-                <div class="col-12 col-md ">
-                    <img src="./img/Webseite_background/logo.jpg " alt=" " height="100 " width="100 ">
-                    <small class=" d-block mb-3 text-muted "></small>
-                </div>
-                <div class="col-6 col-md ">
-                    <h5>Infos</h5>
-                    <ul class="list-unstyled text-small ">
-                        <li>
-                            <a class="text-muted " href="https://www.buchegg.church/ " target="blank ">Christliches Zentrum Buchegg</a>
-                        </li>
-                        <li>
-                            <a class="text-muted " href="https://www.google.com/maps/place/Christliches+Zentrum+Buchegg/@47.3997928,8.5307637,17z/data=!3m1!4b1!4m5!3m4!1s0x47900a643a09b58b:0xfb351834de40c993!8m2!3d47.3997928!4d8.5329524 " target="blank ">Hofwiesenstrasse 143, 8057 Z&uumlrich</a>
-                        </li>
-                        <li>
-                            <a class="text-muted " href="# ">Tel. 044 366 65 65</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md ">
-                    <h5>Resources</h5>
-                    <ul class="list-unstyled text-small ">
-                        <li>
-                            <a class=" text-muted " href="https://www.fontis-shop.ch/ ">Fontis Shop</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md ">
-                    <h5>About</h5>
-                    <ul class="list-unstyled text-small ">
-                        <li><a class="text-muted " href="./html/team.html ">Team</a></li>
-                        <li><a class="text-muted " href="# ">Terms</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class=" footer-copyright text-center py-3 footer-text "> 2020 Erstellt von: <br> Issaya T.
-            </div>
-        </footer>
-        <!--End Section-->
-    </div>
-
-    <!--cdn's f&uumlr scripts-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js " integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js " integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k " crossorigin="anonymous "></script>
-
+        <!-- Full Page Intro -->
+    </header>
+    <!-- Main navigation -->
 </body>
 
 </html>
